@@ -1,5 +1,5 @@
 //
-//  SecondView.swift
+//  HelpPage.swift
 //  Navigation
 //
 //  Created by Scholar on 7/10/25.
@@ -7,16 +7,15 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct HelpPage: View {
     var body: some View {
-        Text("About")
+        Text("Help")
             .font(.title)
             .fontWeight(.bold)
-        //Spacer()
-        Text("Congrats you have arrived to the About page🥳")
+        Text("You have made it to the Help Page")
     }
 }
 
 #Preview {
-    SecondView()
+    HelpPage()
 }

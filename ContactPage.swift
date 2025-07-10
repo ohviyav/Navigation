@@ -1,5 +1,5 @@
 //
-//  SecondView.swift
+//  ContactPage.swift
 //  Navigation
 //
 //  Created by Scholar on 7/10/25.
@@ -7,16 +7,15 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct ContactPage: View {
     var body: some View {
-        Text("About")
+        Text("Contact")
             .font(.title)
             .fontWeight(.bold)
-        //Spacer()
-        Text("Congrats you have arrived to the About page🥳")
+        Text("You have made it to the Contact Page")
     }
 }
 
 #Preview {
-    SecondView()
+    ContactPage()
 }
